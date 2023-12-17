@@ -75,8 +75,10 @@ body {
     width: 100%;
     margin: 30px auto;
     gap: 12px;
+	cursor: pointer;
 }
-.list img { transition: all 0.4s ease; 
+.list img { 
+	transition: all 0.4s ease; 
 }
 .list a:hover img {
     transform: rotate(1deg) scale(1.1);
@@ -131,7 +133,8 @@ input {
 	color: #fff;
 	font-size: 22px;
 	font-weight: 700;
-	xmargin-bottom: 15px;
+	margin-bottom: 15px;
+	cursor: pointer;
 }
 .btn2:hover {
 	background: #fff;
