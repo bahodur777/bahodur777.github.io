@@ -25,6 +25,7 @@ body {
 	position: relative;
 	right: 620px;
 	margin: 9px;
+	cursor: pointer;
 }
 .form {
 	margin-right: 53px;
@@ -94,6 +95,7 @@ input::placeholder {
 	position: absolute;
 	margin: -20px 340px;
 	text-decoration: none;
+	font-family: 'Montserrat';
 }
 button {
 	width: 419px;
