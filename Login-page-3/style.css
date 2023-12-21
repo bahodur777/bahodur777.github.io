@@ -4,50 +4,43 @@
 	box-sizing: border-box;
 	user-select: none;
 }
-body {
+.container {
 	width: 100%;
 	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: #262222;
-}
-.container {
-	width: 1200px;
-	height: 628px;
-	margin: 55px 5px 55px 91px;
-	background: url("img/bg.png");
-	display: flex;
-	align-items: center;
-	flex-direction: row-reverse;
-}
-.logo {
+	background: url(./img/bg.png) no-repeat;
+	background-size: cover;
 	position: relative;
-	right: 620px;
-	margin: 9px;
+}
+.logo-box {
+	position: absolute;
+	top: 40px;
+	left: 40px;
 	cursor: pointer;
 }
 .form {
-	margin-right: 53px;
+	position: absolute;
+	right: 53px;
+	top: calc(50% - 479px / 2);
 	width: 479px;
 	height: 497px;
 	border-radius: 27px;
 	border: 1px solid none;
 	opacity: 0.9;
 	background: linear-gradient(109deg, rgba(201, 201, 201, 0.80) 1.57%, rgba(196, 196, 196, 0.10) 100%);
+	backdrop-filter: blur(30px);
+	padding: 20px 30px 30px;
 }
 h2 {
+	width: 100%;
 	color: #fff;
     font-family: 'Iceland';
 	font-size: 40px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-	padding: 20px 30px 0px;
 }
 .line { 
 	border: 1px;
-	padding: 10px 30px 10px;
 }
 h4 {
 	width: 419px;
@@ -58,8 +51,7 @@ h4 {
 	font-weight: 300;
 	line-height: 24px;
 	letter-spacing: 0em;
-	text-align: left;
-	padding: 0px 30px 70px;
+	padding: 10px 0 60px;
 }
 .p {
 	width: 79px;
@@ -70,35 +62,37 @@ h4 {
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
-	padding:0 30px;
+	padding: 5px;
 }
 input {
-	width: 419px;
+	width: 100%;
 	height: 50px;
 	border-radius: 7px;
 	border: 1px solid white;
 	opacity: 0.5;
 	background: linear-gradient(109deg, rgba(201, 201, 201, 0.80) 1.57%, rgba(196, 196, 196, 0.10) 100%);
-	margin: 5px 30px 30px;
-	padding: 15px;
+	padding-left:15px ;
+	margin-top: 5px;
+	margin-bottom: 30px;
 }
 input::placeholder {
 	color: white;
 	font-size: 15px;
-
 }	
 .a1 {
-	width: 	108px;
+	width: 	200px;
 	height: 15px;
 	font-size: 15px;
 	color: white;
 	position: absolute;
-	margin: -20px 340px;
-	text-decoration: none;
+	left: 310px;
+	padding: 5px;
+	margin-top: -20px;
 	font-family: 'Montserrat';
+	cursor: pointer;
 }
 button {
-	width: 419px;
+	width: 100%;
 	height: 50px;
 	color: black;
 	background: #A5D9D0;
@@ -109,7 +103,7 @@ button {
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
-	margin: 30px 30px;
+	margin: 30px 0 30px;
 	cursor: pointer;
 	transition: all 0.3s;
 }
@@ -123,10 +117,19 @@ button:hover {
 	font-style: normal;
 	font-weight: 300;
 	line-height: normal;
-	margin: -20px 130px 10px 130px;
 	cursor: pointer;
+	margin: -15px 0;
+	padding-left: 105px;
 }
-
-
-
-
+@media screen and (max-width:590px){
+	.form {
+  		width: 100%;
+  		position: relative;
+		right: 0;
+	}
+	.container {
+		width: 100%;
+		height: 100vh;
+		padding: 0 15px;
+	}
+  }
