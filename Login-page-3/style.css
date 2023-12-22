@@ -1,3 +1,4 @@
+	@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Montserrat:wght@200&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -24,9 +25,7 @@
 	width: 479px;
 	height: 497px;
 	border-radius: 27px;
-	border: 1px solid none;
-	opacity: 0.9;
-	background: linear-gradient(109deg, rgba(201, 201, 201, 0.80) 1.57%, rgba(196, 196, 196, 0.10) 100%);
+	background: linear-gradient( 109deg, rgba(201, 201, 201, 0.8) 1.57%, rgba(196, 196, 196, 0.1) 100% );
 	backdrop-filter: blur(30px);
 	padding: 20px 30px 30px;
 }
@@ -43,7 +42,7 @@ h2 {
 	border: 1px;
 }
 h4 {
-	width: 419px;
+	width: 100%;
 	height: 24px;
 	color: #fff;
 	font-family: 'Montserrat';
@@ -70,6 +69,7 @@ input {
 	border-radius: 7px;
 	border: 1px solid white;
 	opacity: 0.5;
+	outline: none;
 	background: linear-gradient(109deg, rgba(201, 201, 201, 0.80) 1.57%, rgba(196, 196, 196, 0.10) 100%);
 	padding-left:15px ;
 	margin-top: 5px;
@@ -111,6 +111,7 @@ button:hover {
 	background-color: white;
 }
 .p1 {
+	width: 100%;
 	color: #FFF;
 	font-family: Montserrat;
 	font-size: 15px;
