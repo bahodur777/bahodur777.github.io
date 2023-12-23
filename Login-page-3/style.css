@@ -150,7 +150,7 @@ b {
 @media screen and (max-width: 590px) {
     .form {
         position: static;
-        margin: 0 20px;
+        margin: 0px 20px;
     }
     .logo-box { 
         top: 25px; 
