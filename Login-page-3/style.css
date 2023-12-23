@@ -1,143 +1,158 @@
-	@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Montserrat:wght@300;400;700&display=swap');
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	user-select: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.container {
-	width: 100%;
-	height: 100vh;
-	background: url(./img/bg.png) no-repeat;
-	background-size: cover;
-	position: relative;
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(./img/bg.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;  
 }
 .logo-box {
-	position: absolute;
-	top: 40px;
-	left: 40px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	cursor: pointer;
+    width: 150px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    cursor: pointer ;
 }
 .form {
-	position: absolute;
-	right: 53px;
-	top: calc(50% - 479px / 2);
-	width: 479px;
-	height: 497px;
-	border-radius: 27px;
-	background: linear-gradient( 109deg, rgba(201, 201, 201, 0.8) 1.57%, rgba(196, 196, 196, 0.1) 100% );
-	backdrop-filter: blur(30px);
-	padding: 20px 30px 30px;
+    width: 479px;
+    height: 497px;
+    right: 53px;
+    top: calc(50% - 479px / 2);
+    border: 1px solid none #fff;
+    border-radius: 27px;
+    background: linear-gradient( 109deg, rgba(201, 201, 201, 0.8) 1.57%, rgba(196, 196, 196, 0.1) 100% );
+    backdrop-filter: blur(30px);
+    position: absolute;
+    padding: 20px 30px 30px;
+    display: flex;  
+    flex-direction: column;
+    gap: 45px;
 }
-h2 {
-	width: 100%;
-	color: #fff;
-    font-family: 'Iceland';
-	font-size: 40px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
+.login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
-.line { 
-	border: 1px;
+.line {
+    width: 110px;
+    background: #fff;
 }
-h4 {
-	width: 100%;
-	height: 24px;
-	color: #fff;
-	font-family: 'Montserrat';
-	font-size: 20px;
-	font-weight: 300;
-	line-height: 24px;
-	letter-spacing: 0em;
-	padding: 10px 0 60px;
-}
-.p {
-	width: 79px;
-	height: 18px;
-	color: #fff;
-	font-family: 'Montserrat';
-	font-size: 15px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	padding: 5px;
-}
-input {
-	width: 100%;
-	height: 50px;
-	border-radius: 7px;
-	border: 1px solid white;
-	opacity: 0.5;
-	outline: none;
-	background: linear-gradient(109deg, rgba(201, 201, 201, 0.80) 1.57%, rgba(196, 196, 196, 0.10) 100%);
-	padding-left:15px ;
-	margin-top: 5px;
-	margin-bottom: 30px;
-}
-input::placeholder {
-	color: white;
-	font-size: 15px;
-}	
-.a1 {
-	width: 	200px;
-	height: 15px;
-	font-size: 15px;
-	color: white;
-	position: absolute;
-	left: 310px;
-	padding: 5px;
-	margin-top: -20px;
-	font-family: 'Montserrat';
-	cursor: pointer;
-}
-button {
-	width: 100%;
-	height: 50px;
-	color: black;
-	background: #A5D9D0;
-	border: none;
-	border-radius: 7px;
-	font-family: 'Montserrat';
-	font-size: 15px;
-	font-style: normal;
-	font-weight: 600;
-	line-height: normal;
-	margin: 30px 0 30px;
-	cursor: pointer;
-	transition: all 0.3s;
-}
-button:hover {
-	background-color: white;
+.h2 {
+    width: 100%;
+    color: #fff;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 40px;
+    font-style: normal;
+    font-family: Iceland;    
 }
 .p1 {
-	width: 100%;
-	color: #FFF;
-	font-family: Montserrat;
-	font-size: 15px;
-	font-style: normal;
-	font-weight: 300;
-	line-height: normal;
-	cursor: pointer;
-	margin: -15px 0;
-	padding-left: 105px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: normal;
+    font-family: Montserrat;
 }
-@media screen and (max-width:590px){
-	.form {
-  		width: 100%;
-  		position: relative;
-		right: 0;
-	}
-	.container {
-		width: 100%;
-		padding: 0 15px;
-	}
-	.logo {
-		position: absolute;
-		right: 80px;
-	}
-  }
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label p {
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.80);
+    color: #fff;
+    opacity: 0.5;
+    background: linear-gradient(109deg, rgba(201, 201, 201, 0.80) 1.57%, rgba(196, 196, 196, 0.10) 100%);
+    backdrop-filter: blur(30px);
+    outline: none;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 15px;
+    font-family: Montserrat;
+}
+input::placeholder {
+    color: #fff;
+}
+.forgot {
+    width: 100%;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: Montserrat;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    margin-top: -35px;
+}
+.box3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    background: #A5D9D0;
+    margin: -40px 0 15px;
+    border: none;
+    cursor: pointer;
+}
+.p2 {
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-family: Montserrat;
+    text-align: center;
+    margin-top: -15px;
+}
+b {
+    cursor: pointer;
+}
+@media screen and (max-width: 590px) {
+    .form {
+        position: static;
+        margin: 0 20px;
+    }
+    .logo-box { 
+        top: 25px; 
+    }
+}

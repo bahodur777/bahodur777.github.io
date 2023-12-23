@@ -3,29 +3,36 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Login Form :: Bahodur Bahronov</title>
+	<title>Login-page3 :: Bahodur Bahronov</title>
 	<link rel="stylesheet" href="style.css">
-	<style>
-  @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Montserrat:wght@200&display=swap');
-</style>
 </head>
 <body>
-	<div class="container">	
-		<div class="logo-box">
-			<img src="./img/Logo.png" onclick="location.href='https://mahorat-it.uz/'">
-		</div>
-			<form class="form">
-				<h2>Login</h2>
-				<img src="./img/Line 1.png" class="line">
-				<h4>Welcome onboard with us!</h4>
-				<label type="user" class="p">Username</label>
-				<input type="Username" placeholder="Enter your username">
-				<label type="password" class="p">Password</label>
-				<input type="password" placeholder="Enter your password">
-				<p class="a1">Forgot Password?<p>
-				<button>Login</button>
-				<p class="p1">New to Logo? <b>Register</b> Here</p>
-			</form>	
+	<div class="logo-box">
+		<img src="./img/logo.png" onclick="location.href='https://mahorat-it.uz/'">
 	</div>
+		<form class="form">
+			<div class="login">
+				<h2 class="h2">Login</h2>
+            	<img src="./img/line.png" class="line">
+            	<p class="p1">Welcome onboard with us!</p>
+        	</div>
+        		<div class="inputs">
+                    <label for="username">
+                        <p>Username</p>
+                        <input class="username" type="text" placeholder="Enter your username">
+                    </label>
+                    <label for="password">
+                        <p>Password</p>
+                        <input class="password" type="password" placeholder="Enter your password">
+                    </label>
+            	</div>
+            <div>
+                <a href="#" class="forgot">Forgot password?</a>
+            </div>
+            <div class="box3">
+                <button class="btn">LOGIN</button>
+                <p class="p2">New to Logo? <b>Register</b> Here</p>
+            </div>	
+    	</form>
 </body>
 </html>
