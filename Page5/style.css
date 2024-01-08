@@ -1,0 +1,339 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+.box1 {
+	width: 100%;	
+	height: 973px;
+	padding: 100px 0 289px;
+    background: url(./img/bg1.svg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container {
+	width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.box1 .container {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+.logo span {
+	color: #4F4F4F;
+	font-family: SF Pro Display;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 112.5%;
+}
+.logo h4 {
+	color: #4F4F4F;
+	font-family: SF Pro Display;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 112.5%;
+	letter-spacing: 10.665px;
+}
+.body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 30px;
+	margin-top: 157px;
+}
+.body .span1 {
+	color: #4F4F4F;
+	font-family: SF Pro Display;
+	font-size: 34px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 112.5%;
+}
+span h4 {
+	color: #EB5757;
+	font-family: SF Pro Display;
+	font-size: 115px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 84.5%;
+}
+.body p {
+	color: #4F4F4F;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px;
+}
+.btn {
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.btn button {
+	width: 160px;
+	height: 50px;
+	border-radius: 40px;
+	background: #F2C94C;
+	border: none;
+	color: #000;
+	cursor: pointer;
+}
+.btn a {
+	color: #EB5757;
+	text-align: right;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
+	text-decoration: none;
+}
+.head-container {
+	margin: 50px 0;
+}
+.head-container span {
+	color: #4F4F4F;
+	font-family: SF Pro Display;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 123.5%; /* 37.05px */
+}
+.head-container h2 {
+	color: #EB5757;
+	font-family: SF Pro Display;
+	font-size: 96px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 95.5%;
+}
+.box2 {
+	width: 100%;
+	height: 920px;
+    background: url(./img/bg2.svg) no-repeat;
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+}
+.box2 .container {
+	padding: 60px 77px 132px 77px;
+}
+.container ul {
+	width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.ul-li {
+	width: 322px;
+    height: 328px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ul-li .text {
+	width: 322px;
+    height: 328px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.text p {
+	color: var(--Gray-1, #333);
+	text-align: center;
+	font-family: SF Pro Display;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.btn2 {
+	width: 180px;
+	height: 56px;
+	border: none;
+	border-radius: 18px;
+	background: linear-gradient(90deg, #EB7598 0%, #FF926F 100%);
+	box-shadow: 0px 10px 25px 0px rgba(251, 112, 112, 0.45);
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	top: -28px;
+} 
+.box3 {
+	width: 100%;
+	height: 920px;
+    background: url(./img/bg3.svg) no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+}
+.box3 .body3 {
+	display: flex;
+    flex-direction: column;
+}
+.body3 .text-box {
+	padding: 0 0 0 55px;
+    width: 1160px;
+    height: 398px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 50px;
+}
+.box-text {
+	width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box-text span {
+	width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D89595;
+    border-radius: 99px;
+    background-position: center;
+    color: #d89595;
+    font-size: 14px;
+    font-weight: 900;
+}
+.body3 .btn3 {
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+    margin: 0 0 0 55px;
+}
+.btn3 button {
+	width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    background: #F2C94C;
+    border: none;
+    color: #000;
+    cursor: pointer;
+}
+.btn3 a {
+	color: #D89595;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
+	text-decoration: none;
+}
+.imgs {
+	width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    padding: 28px 0 50px 0;
+}
+.box5 {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box5 .container {
+	padding: 0 0 50px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contac-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 648px;
+    background-color: #e15252;
+    border-radius: 0px 0px 50px 50px
+}
+.title {
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.title span {
+	color: #FFF;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 96px;
+font-style: normal;
+font-weight: 900;
+line-height: 100.5%; /* 96.48px */
+}
+.inputs {
+	width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+}
+input {
+	padding-left: 15px;
+	width: 374px;
+    height: 56px;
+    border-radius: 61px;
+    border: 3px solid #fff;
+    outline: none;
+}
+.inputs button {
+	width: 168px;
+	height: 56px;
+	border-radius: 61px;
+	border: 3px solid #FFF;
+	background: no-repeat;
+}
+.contacts {
+	width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+.contac {
+	display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;	
+}
+.contac p {
+	color: #FFF;
+font-family: TT Hoves;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
