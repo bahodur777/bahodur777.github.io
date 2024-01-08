@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --default-font: 'Rubik', sans-serif;
+    --text-color: #363940;
+    --color-neutral: #95A1BB;
+    --font-p: 400 16px/22px Rubik, sans-serif;
+    --font-h1: 500 36px/43px Rubik, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: var(--default-font);
+}
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+h1 {
+    color: var(--text-color);
+    text-align: center;
+    font: var(--font-h1);
+}
+.desc {
+    color: var(--color-neutral);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: var(--font-p);
+    margin-top: 20px;
+}
+.results {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+}
+.result {
+    width: 260px;
+    height: 260px;
+    background: url(./img/Oval.svg);
+}
+.text {
+    width: 260px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text1 {
+    background: url(img/Path.svg) no-repeat;
+}
+.text2 {
+    background: url(img/Path1.svg) no-repeat;
+    background-position: right top;
+}
+.text3 {
+    background: url(img/Path2.svg)no-repeat;
+    background-position: right;
+}
+.p {
+    width: 178px;
+    color: var(--color-neutral);
+    text-align: center;
+    font: var(--font-p);
+    margin-top: 10px;
+}
