@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --default-font: 'Rubik', sans-serif;
+    --text-color: #363940;
+    --color-neutral: #95A1BB;
+    --font-link: 500 12px/20px Rubik, sans-serif;
+    --font-p: 400 16px/22px Rubik, sans-serif;
+    --font-h6: 500 18px/22px Rubik, sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+    font-family: var(--default-font);
+}
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+h1 {
+    color: #363940;
+    font-family: Rubik;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+}
+.img p {
+    width: 100%;
+    color: var(--color-neutral);
+    font-size: var(--font-p);
+    margin: 20px 0 40px;
+}
+
