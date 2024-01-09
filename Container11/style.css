@@ -18,7 +18,7 @@
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding: 100px 0 100px;
     text-align: center;
 }
 h1 {
@@ -35,4 +35,48 @@ h1 {
     font-size: var(--font-p);
     margin: 20px 0 40px;
 }
+.box3 {
+    margin-top: 40px;
+}
 
+.box4 {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+.box5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    width: 292px;
+    height: 48px;
+    gap: 28px;
+}
+.box6 {
+    width: 224px;
+}
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h6 {
+    color: var(--text-color);
+    font: var(--font-h6);
+}
+a {
+    color: var(--color-neutral);
+    font: var(--font-link);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.box6 {
+    width: 224px;
+    display: block;
+}
+.h2 {
+    width: 224px;
+}
