@@ -21,9 +21,9 @@
 }
 .container {
     width: 100%;
-    max-width: 1400px;
+    max-width: 941px;
     margin: 0 auto;
-    padding: 100px 0 100px;
+    padding-top: 100px;
     text-align: center;
 }
 .h1-11 {

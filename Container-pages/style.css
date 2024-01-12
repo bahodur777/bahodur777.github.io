@@ -19,7 +19,6 @@
 }
 .container0 {
 	width: 100%;
-	max-width: 1400px;
 	margin: 0 auto;
 }
 iframe {
@@ -75,7 +74,6 @@ a {
 }
 .left-navs {
 	display: flex;
-	align-items: center;
 	gap: 44px;
 }
 .list1 {

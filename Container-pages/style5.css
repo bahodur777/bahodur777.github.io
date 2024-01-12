@@ -24,7 +24,8 @@
 }
 .container {
 	width: 100%;
-	max-width: 1400px;
+	max-width: 940px;
+	margin: 0 auto;
 	text-align: center;
 	padding-top: 50px;
 }
@@ -75,7 +76,7 @@
 .list .p1 {
 	margin-top: 30px;
 }
-img {
+.img1-5 {
 	height: 40px;
 	margin-top: 30px;
 }
@@ -89,11 +90,12 @@ img {
 	color: var(--primary-color5);
 	font: var(--font-link5);
 	letter-spacing: 2px;
+	text-transform: uppercase;
 	cursor: pointer;
 }
 .btn1-5:hover {
 	background: var(--primary-color5);
 	color: #fff;
-	letter-spacing: 2.2px;
+	letter-spacing: 2.1px;
 }
 
