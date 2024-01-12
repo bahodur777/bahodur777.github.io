@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --default-font8: 'Rubik', sans-serif;
+    --text-color8: #363940;
+    --Primary-color8: #6E38F7;
+    --font-h4-8: 500 24px/28px Rubik, sans-serif;
+    --font-p8: 400 16px/22px Rubik, sans-serif;
+    --font-p2-8: 400 14px/22px Rubik, sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+    font-family: var(--default-font8);
+}
+.box1-8 {
+	width: 100%;
+	height: 314px;
+	margin: 0 auto;
+}
+.container {
+	width: 100%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 20px;
+}
+h4 {
+	color: var(--text-color8);
+	font: var(--font-h4-8);
+}
+.desc {
+	width: 460px;
+	color: var(--text-color8);
+	font: var(--font-p8);
+	margin-top: 20px;
+}
+.navigator {
+	display: flex;
+	align-items: flex-start;
+	gap: 11px;
+}
+.p1 {
+	width: 185px;
+	color: var(--text-color8);
+	font: var(--font-p2-8);
+	cursor: pointer;
+}
+.phone {
+	display: flex;
+	gap: 11px;
+	align-items: center;
+}
+.message {
+	display: flex;
+	gap: 11px;
+	margin-top: 17px;
+	align-items: center;
+}
+.p {
+	color: var(--Primary-color8);
+	font: var(--font-p2-8);
+	cursor: pointer;
+}
