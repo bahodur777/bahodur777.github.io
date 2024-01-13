@@ -27,7 +27,7 @@
 .paragraph {
 	width: 205px;
 	color: var(--netural-color2);
-	font: var(--font);
+	font: var(--font2);
 	margin: 15px 0 20px;
 }
 h2 {
@@ -59,6 +59,6 @@ h6 {
 	color: var(--primary-color2);
 	text-decoration: none;
 	text-transform: uppercase;
-	font: var(--font-a);
+	font: var(--font-a2);
 	letter-spacing: 2px;
 }
