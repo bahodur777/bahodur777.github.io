@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --default-font4: 'Rubik', sans-serif;
+    --color-texts4: #363940;
+    --Neutral-4-4: #95A1BB;
+    --color-neutral4: #F6F7FA;
+    --Primary: #6E38F7;
+    --font-h1-4: 500 36px/43px Rubik, sans-serif;
+    --font-btn1-4: 500 12px/20px Rubik, sans-serif;;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+	font-family: var(--default-font4);
+}
+.header1-4 {
+	width: 100%;
+	height: 372px;
+}
+.navbar1-4 {
+	width: 100%;
+	height: 372px;
+	background: var(--color-neutral4);
+}
+.container1-4 {
+	width: 940px;
+	margin: 0 auto;	
+	padding: 100px 0 100px;
+}
+.h1-4 {
+	width: 940px;
+	height: 86px;
+	text-align: center;
+	color: var(--color-texts4);
+	font: var(--font-h1-4);
+}
+.btns1-4 {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	gap: 20px;
+}
+.btns1-4 a {
+	text-decoration: none;
+}
+.btn1-4 {
+	width: 157px;
+	height: 46px;
+	background: transparent;
+	border: 1px solid var(--Neutral-4-4);
+	border-radius: 4px;
+	color: var(--Neutral-4-4);
+	font: var(--font-btn1-4);
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	transition: all .3s ease;
+	cursor: pointer;
+}
+.btn1-4:hover {
+	background: transparent;
+	border: 1.5px solid var(--Primary);
+	color: #fff;
+	background: var(--Primary);
+}

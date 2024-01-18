@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --default-font9: 'Rubik', sans-serif;
+    --color-texts9: #363940;
+    --font-h1-9: 500 36px/43px Rubik, sans-serif;
+    --font-btn9: 500 12px/20px Rubik, sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+	font-family: var(--default-font9);
+}
+.header1-9 {
+	width: 100%;
+	height: 246px;
+	background: #F6F7FA;
+}
+.container1-9 {
+	width: 100%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding-top: 102px;
+}
+.content1-9 {
+	display: flex;
+	gap: 206px;
+	justify-content: center;
+}
+.h1-9 {
+	color: var(--color-texts9);
+	font: var(--font-h1-9);
+}
+.btn1-9 {
+	width: 157px;
+	height: 46px;
+	border-radius: 4px;
+	background: #6E38F7;
+	border: 1px solid #6e38f7;
+	color: #fff;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font: var(--font-btn9);
+	cursor: pointer;
+}

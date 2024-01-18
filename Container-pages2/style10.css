@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --default-font10: 'Rubik', sans-serif;
+    --color-texts10: #363940;
+    --color-neutral10: #95A1BB;
+    --color-primary: #6E38F7;
+    --color-border: #CAD1E1;
+    --font-p1-10: 400 16px/22px Rubik, sans-serif;
+    --font-smal-p: 400 14px/22px Rubik, sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+	font-family: var(--default-font10);
+}
+.header1-10 {
+	width: 100%;
+	height: 384px;
+}
+.container1-10 {
+	width: 100%;
+	max-width: 940px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.top1-10 {
+	display: flex;
+}
+.small-p1-10 {
+	width: 180px;
+	height: 66px;
+	color: var(--color-texts10);
+	font: var(--font-smal-p);
+	margin-right: 60px;
+}
+.icons {
+	display: flex;
+	gap: 10px;
+	margin-top: 20px;
+}
+.content2 {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-right: 100px;
+}
+.content2 p {
+	font: var(--font-p1-10);
+}
+.content3 {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-right: 20px;
+}
+.icon1-10, .icon2-10 {
+	display: flex;
+	gap: 11px;
+}
+.icon1-10 {
+	align-items: flex-start;
+}
+.content4 {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.inputs1-10 {
+	display: flex;
+	gap: 10px;
+}
+.bottom {
+	display: flex;
+	gap: 521px;
+	margin-top: 81px;
+}
+.left1-10 {
+	display: flex;
+	gap: 10px;
+}
+select {
+	border: none;
+	outline: none;
+	color: var(--color-neutral10);
+}
+select option {
+	color: #000;
+}
+.small-p10 {
+	color: var(--color-texts10);
+	font: var(--font-smal-p);
+}
+.p2-10 {
+	color: var(--color-primary);
+	cursor: pointer;
+	text-decoration: none;
+}
+.inputs1-10 input {
+	width: 142px;
+	height: 46px;
+	padding-left: 15px;
+	border-radius: 4px;
+	border: 1px solid var(--color-border);
+	outline: none;
+	font: var(--font-p1-10);
+}
+.btn10 {
+	width: 68px;
+	height: 46px;
+	background: transparent;
+	border-radius: 4px;
+	color: var(--color-primary);
+	border: 1px solid var(--color-primary);
+	cursor: pointer;
+}
+.p3-10 {
+	color: var(--color-neutral10);
+}
