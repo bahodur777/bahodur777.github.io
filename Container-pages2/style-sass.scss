@@ -1,0 +1,95 @@
+@import "default";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-sas {
+    position: fixed;
+    top: 140px;
+    @include center2;
+    .box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .btn {
+            width: 50px;
+            height: 50px;
+            background: transparent;
+            border: none;
+            transition: all 0.3s;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            &:hover .btn1 {
+                display: flex;
+                justify-content: flex-start;
+            }
+            &::before,
+            &::after {
+                transition: all 0.3s;
+            }
+            &::before {
+                content: "";
+                left: calc(80px * 2);
+                @include position;
+                transition-delay: 0.3s;
+            }
+            &:hover::before {
+                left: 0;
+            }
+            &:hover {
+                width: calc(80px * 2);
+            }
+            &:hover::after {
+                transition-delay: 0.6s;
+                left: 5px;
+            }
+        }
+        .telegram::after {
+            content: "Telegram";
+            color: dodgerblue;
+            font-size: 15px;
+            font-weight: 550;
+            position: relative;
+            top: -24px;
+            left: 110px;
+        }
+        .youtube::after {
+            content: "YouTube";
+            color: red;
+            font-size: 15px;
+            font-weight: 550;
+            position: relative;
+            top: -25px;
+            left: 110px;
+        }
+        .facebook::after {
+            content: "Facebook";
+            color: darkblue;
+            font-size: 15px;
+            font-weight: 550;
+            position: relative;
+            top: -24px;
+            left: 110px;
+        }
+    }
+    .box a:hover .btn1 {
+        transform: scale(0.7);
+        animation: iconAnim 0.5s linear infinite;
+        animation-delay: 0.3s;
+    }
+    @keyframes iconAnim {
+        0% {
+            transform: scale(0.7);
+        }
+        50% {
+            transform: scale(0.8);
+        }
+    }
+}

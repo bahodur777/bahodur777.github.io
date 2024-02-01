@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-sas {
+  position: fixed;
+  top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-sas .box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container-sas .box .btn {
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  transition: all 0.3s;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.container-sas .box .btn:hover .btn1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.container-sas .box .btn::before, .container-sas .box .btn::after {
+  transition: all 0.3s;
+}
+.container-sas .box .btn::before {
+  content: "";
+  left: 160px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition-delay: 0.3s;
+}
+.container-sas .box .btn:hover::before {
+  left: 0;
+}
+.container-sas .box .btn:hover {
+  width: 160px;
+}
+.container-sas .box .btn:hover::after {
+  transition-delay: 0.6s;
+  left: 5px;
+}
+.container-sas .box .telegram::after {
+  content: "Telegram";
+  color: dodgerblue;
+  font-size: 15px;
+  font-weight: 550;
+  position: relative;
+  top: -24px;
+  left: 110px;
+}
+.container-sas .box .youtube::after {
+  content: "YouTube";
+  color: red;
+  font-size: 15px;
+  font-weight: 550;
+  position: relative;
+  top: -25px;
+  left: 110px;
+}
+.container-sas .box .facebook::after {
+  content: "Facebook";
+  color: darkblue;
+  font-size: 15px;
+  font-weight: 550;
+  position: relative;
+  top: -24px;
+  left: 110px;
+}
+.container-sas .box a:hover .btn1 {
+  transform: scale(0.7);
+  animation: iconAnim 0.5s linear infinite;
+  animation-delay: 0.3s;
+}
+@keyframes iconAnim {
+  0% {
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+}/*# sourceMappingURL=style-sass.css.map */
