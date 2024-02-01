@@ -1,0 +1,76 @@
+@import "default";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    @include center;
+    .box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .btn {
+            width: 50px;
+            height: 50px;
+            background-color: transparent;
+            border: 1px solid;
+            transition: all 0.3s;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            &::before,
+            &::after {
+                transition: all 0.3s;
+            }
+            &::before {
+                content: "";
+                left: calc(80px * 2);
+                @include position;
+                transition-delay: 0.3s;
+            }
+            &:hover::before {
+                left: 0;
+            }
+            &:hover {
+                width: calc(80px * 2);
+            }
+            &::after {
+                left: calc(-80px * 2);
+                color: #fff;
+                text-transform: uppercase;
+            }
+            &:hover::after {
+                transition-delay: 0.6s;
+                left: 0;
+            }
+        }
+        .telegram::before {
+            background-color: dodgerblue;
+        }
+        .youtube::before {
+            background-color: red;
+        }
+        .facebook::before {
+            background-color: #3b5998;
+        }
+        .telegram::after {
+            content: "Telegram";
+            @include position;
+            @include center2
+        }
+        .youtube::after {
+            content: "YouTube";
+            @include position;
+            @include center2
+        }
+        .facebook::after {
+            content: "Facebook";
+            @include position;
+            @include center2
+        }
+    }
+}

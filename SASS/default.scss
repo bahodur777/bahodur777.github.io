@@ -1,0 +1,19 @@
+$fontrubik:"Rubik";
+@mixin center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin position {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
