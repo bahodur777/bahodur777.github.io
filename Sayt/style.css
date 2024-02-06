@@ -22,11 +22,6 @@ body {
   overflow-x: hidden;
 }
 
-.container1-1 {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
 a {
   text-decoration: none;
 }
@@ -432,4 +427,28 @@ section {
 
 .area {
   resize: none;
+}
+
+@media screen and (max-width: 425px) {
+  .share {
+    display: none;
+  }
+  .skills {
+    padding-left: 600px;
+  }
+  .sub2-1 {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  .contact {
+    padding-left: 540px;
+  }
+  .port-h1 {
+    padding-left: 470px;
+  }
+  .port-p {
+    padding-left: 470px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

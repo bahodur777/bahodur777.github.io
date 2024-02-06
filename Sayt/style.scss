@@ -6,7 +6,7 @@
     user-select: none;
 }
 
-:root {
+ :root {
     --bg-color: #1f1f21;
     --text-color: #fff;
     --main-color: #ffae00;
@@ -18,11 +18,6 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
     overflow-x: hidden;
-}
-
-.container1-1 {
-    max-width: 900px;
-    margin: 0 auto;
 }
 
 a {
@@ -430,4 +425,28 @@ section {
 .area {
     @extend .form-input;
     resize: none;
+}
+
+@media screen and (max-width: 425px) {
+    .share {
+        display: none;
+    }
+    .skills {
+        padding-left: 600px;
+    }
+    .sub2-1 {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    .contact {
+        padding-left: 540px;
+    }
+    .port-h1 {
+        padding-left: 470px;
+    }
+    .port-p {
+        padding-left: 470px;
+        width: 100%;
+    }
 }
