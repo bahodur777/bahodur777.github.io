@@ -96,10 +96,6 @@ a.active {
   margin-left: 10px;
 }
 
-section {
-  padding: 0 10%;
-}
-
 .About {
   position: relative;
   width: 100%;
@@ -444,18 +440,26 @@ section {
   }
   .sub2-1 {
     width: 400px;
-    display: flex;
-    justify-content: center;
+    position: relative;
+    right: 190px;
   }
-  .contact {
+  .contact-text {
     padding-left: 540px;
+  }
+  .con-h2 {
+    position: relative;
+    left: 390px;
+  }
+  .con-p {
+    position: relative;
+    left: 390px;
   }
   .port-h1 {
     padding-left: 470px;
   }
   .port-p {
-    padding-left: 470px;
-    width: 100%;
+    position: relative;
+    left: 345px;
   }
   .About {
     display: flex;
