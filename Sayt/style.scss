@@ -20,6 +20,12 @@ body {
     overflow-x: hidden;
 }
 
+.container-body {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -448,5 +454,9 @@ section {
     .port-p {
         padding-left: 470px;
         width: 100%;
+    }
+    .About {
+        display: flex;
+        gap: 100px;
     }
 }
