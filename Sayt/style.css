@@ -495,14 +495,23 @@ a.active {
     width: 800px;
   }
   .mysites {
-    height: 120px;
+    height: 150px;
     display: flex;
     align-items: center;
     gap: 13px;
+    border-radius: 100px;
   }
   .mysites p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
+  }
+  .mysites span {
+    font-size: 2.7rem;
+    font-weight: 700;
+  }
+  .mysites .a-3 {
+    font-size: 1.5rem;
+    font-weight: 500;
   }
   .form {
     position: relative;
