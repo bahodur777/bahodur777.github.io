@@ -493,6 +493,7 @@ a.active {
   }
   .list-site {
     width: 800px;
+    gap: 40px;
   }
   .mysites {
     height: 150px;
