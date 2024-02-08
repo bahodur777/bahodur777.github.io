@@ -122,7 +122,7 @@ a.active {
 
 .about-text h1 {
     font-size: var(--big-font);
-    margin: 23px 0;
+    margin: 65px 0 40px;
 }
 
 .about-text p {
@@ -373,7 +373,7 @@ a.active {
         &:hover {
             color: #000;
             background-color: #ffae00;
-            width: 120px;
+            width: 150px;
             text-align: center;
             font-weight: 600;
             font-size: 1rem;
@@ -416,6 +416,7 @@ a.active {
     border-radius: 10px;
     color: var(--text-color);
     transition: all .3s;
+    cursor: pointer;
     &:hover {
         background: #c3c3c3;
         color: #000;
