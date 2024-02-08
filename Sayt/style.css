@@ -436,6 +436,10 @@ a.active {
   .share {
     display: none;
   }
+  .displey {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   .skills {
     padding-left: 500px;
   }
@@ -445,23 +449,25 @@ a.active {
     right: 190px;
   }
   .contact-text {
-    padding-left: 550px;
-    gap: 10rem;
+    padding-left: 100px;
+    gap: 8rem;
+    display: flex;
+    flex-direction: column;
   }
   .con-h2 {
     position: relative;
-    left: 280px;
+    left: 310px;
   }
   .con-p {
     position: relative;
-    left: 280px;
+    left: 310px;
   }
   .port-h1 {
-    padding-left: 400px;
+    padding-left: 300px;
   }
   .port-p {
     position: relative;
-    left: 290px;
+    left: 190px;
   }
   .About {
     display: flex;
@@ -474,15 +480,37 @@ a.active {
     gap: 50px;
   }
   .product1 {
-    width: 850px;
-    margin-right: 55px;
+    position: relative;
+    margin-left: 150px;
   }
   img {
-    width: 800px;
+    width: 650px;
     height: 500px;
   }
   .things {
     position: relative;
-    left: 90px;
+    padding-right: 100px;
+  }
+  .list-site {
+    width: 800px;
+  }
+  .mysites {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  }
+  .mysites p {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .form {
+    position: relative;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+  }
+  .form input {
+    width: 400px;
   }
 }/*# sourceMappingURL=style.css.map */
