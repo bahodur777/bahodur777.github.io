@@ -439,6 +439,13 @@ a.active {
     display: flex;
     flex-direction: column-reverse;
   }
+  .about-img {
+    display: none;
+  }
+  .about-text {
+    position: relative;
+    left: 585px;
+  }
   .skills {
     padding-left: 800px;
   }
@@ -451,14 +458,15 @@ a.active {
     right: 190px;
   }
   .contact-text {
-    padding-left: 360px;
     gap: 8rem;
     display: flex;
     flex-direction: column;
+    position: relative;
+    left: 25px;
   }
   .con-h2 {
     position: relative;
-    left: 555px;
+    left: 285px;
     font-size: 4.8rem;
   }
   .con-p {
@@ -484,42 +492,42 @@ a.active {
   }
   .product1 {
     position: relative;
-    margin-left: 650px;
+    left: 60px;
   }
   img {
-    width: 1170px;
-    height: 620px;
+    width: 860px;
+    height: 600px;
   }
   .things {
     position: relative;
     padding-right: 100px;
   }
   .list-site {
-    width: 800px;
+    width: 950px;
     gap: 60px;
   }
   .mysites {
-    height: 150px;
+    height: 165px;
     display: flex;
     align-items: center;
     gap: 13px;
     border-radius: 100px;
   }
   .mysites p {
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     font-weight: 600;
   }
   .mysites span {
-    font-size: 2.7rem;
+    font-size: 3rem;
     font-weight: 700;
   }
   .mysites .a-3 {
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     font-weight: 500;
   }
   .form {
     position: relative;
-    margin-left: 10px;
+    margin-left: 80px;
     display: flex;
     align-items: center;
   }
@@ -530,5 +538,15 @@ a.active {
   }
   .me {
     font-size: 45px;
+  }
+  textarea {
+    width: 550px;
+    height: 200px;
+    font-size: 2.5rem;
+  }
+  .con-btn {
+    width: 250px;
+    height: 65px;
+    font-size: 25px;
   }
 }/*# sourceMappingURL=style.css.map */
