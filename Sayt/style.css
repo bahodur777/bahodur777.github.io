@@ -445,7 +445,7 @@ a.active {
     right: 190px;
   }
   .contact-text {
-    padding-left: 450px;
+    padding-left: 550px;
     gap: 10rem;
   }
   .con-h2 {
@@ -480,5 +480,9 @@ a.active {
   img {
     width: 800px;
     height: 500px;
+  }
+  .things {
+    position: relative;
+    left: 90px;
   }
 }/*# sourceMappingURL=style.css.map */
