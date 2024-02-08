@@ -94,9 +94,6 @@ a.active {
     margin-left: 10px;
 }
 
-// section {
-//     padding: 0 10%;
-// }
 .About {
     position: relative;
     width: 100%;
@@ -104,6 +101,7 @@ a.active {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    top: 60px;
 }
 
 .about-img img {
@@ -430,15 +428,8 @@ a.active {
 }
 
 @media screen and (max-width: 425px) {
-    section {
-        padding: 0 15px 0 15px;
-    }
     .share {
         display: none;
-    }
-    .displey {
-        display: flex;
-        flex-direction: column-reverse;
     }
     .about-img {
         display: none;
@@ -456,7 +447,7 @@ a.active {
     .sub2-1 {
         width: 900px;
         position: relative;
-        right: 380px;
+        right: 420px;
         font-size: 4.2rem;
     }
     .contact-text {
@@ -483,10 +474,6 @@ a.active {
         position: relative;
         left: 280px;
         font-size: 25px;
-    }
-    .About {
-        display: flex;
-        gap: 100px;
     }
     .top-ths {
         display: flex;
@@ -557,11 +544,13 @@ a.active {
         width: 700px;
         font-size: 5rem;
         position: relative;
-        left: -90px;
-        margin: 35px 0;
+        left: -110px;
+        margin: 65px 0 40px;
     }
     .about-text span {
         padding: 20px 35px;
+        margin: 50px;
+        margin-bottom: 20px;
     }
     .about-text p {
         width: 100%;
@@ -574,8 +563,8 @@ a.active {
     }
     .btn1-1 {
         position: relative;
-        left: 65px;
-        margin-top: 50px;
+        left: 50px;
+        margin-top: 10px;
         font-size: 2rem;
         padding: 30px 85px;
     }
