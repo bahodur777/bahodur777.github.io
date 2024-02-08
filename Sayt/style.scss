@@ -198,7 +198,7 @@ a.active {
 
 .skill-info {
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .skill-title {
@@ -208,7 +208,7 @@ a.active {
     column-gap: 0.5rem;
     font-size: .875rem;
     font-weight: var(--font-semi-bold);
-    margin-bottom: 2.5rem
+    margin-bottom: 4.5rem
 }
 
 .skill-blob {
@@ -445,29 +445,30 @@ a.active {
     }
     .about-text {
         position: relative;
-        left: 585px;
+        left: 300px;
     }
     .skills {
-        padding-left: 800px;
+        padding-left: 370px;
     }
     .skills-content {
         display: none;
     }
     .sub2-1 {
-        width: 400px;
+        width: 900px;
         position: relative;
-        right: 190px;
+        right: 400px;
+        font-size: 4.7rem;
     }
     .contact-text {
         gap: 8rem;
         display: flex;
         flex-direction: column;
         position: relative;
-        left: 25px;
+        left: 15px;
     }
     .con-h2 {
         position: relative;
-        left: 285px;
+        left: 220px;
         font-size: 4.6rem;
     }
     .con-p {
@@ -475,11 +476,13 @@ a.active {
     }
     .port-h1 {
         position: relative;
-        left: 585px;
+        left: 200px;
+        font-size: 4.7rem;
     }
     .port-p {
         position: relative;
-        left: 585px;
+        left: 200px;
+        font-size: 25px;
     }
     .About {
         display: flex;
@@ -493,22 +496,22 @@ a.active {
     }
     .product1 {
         position: relative;
-        left: 60px;
+        left: -45px;
     }
     img {
-        width: 860px;
-        height: 600px;
+        width: 700px;
+        height: 550px;
     }
     .things {
         position: relative;
         padding-right: 100px;
     }
     .list-site {
-        width: 950px;
+        width: 750px;
         gap: 60px;
     }
     .mysites {
-        height: 165px;
+        height: 200px;
         display: flex;
         align-items: center;
         gap: 13px;
@@ -527,15 +530,15 @@ a.active {
         }
     }
     .form {
-        position: relative;
-        margin-left: 80px;
         display: flex;
         align-items: center;
     }
     .form input {
-        width: 800px;
+        width: 750px;
         height: 120px;
         font-size: 2rem;
+        position: relative;
+        margin-left: 10px;
     }
     .me {
         font-size: 45px;
@@ -547,7 +550,7 @@ a.active {
     }
     .con-btn {
         width: 250px;
-        height: 65px;
+        height: 80px;
         font-size: 25px;
     }
 }
