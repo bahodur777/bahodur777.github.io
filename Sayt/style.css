@@ -495,11 +495,11 @@ a.active {
   }
   .product1 {
     position: relative;
-    left: -15px;
+    left: -10px;
   }
   img {
     width: 700px;
-    height: 550px;
+    height: 450px;
   }
   .things {
     position: relative;
@@ -521,7 +521,7 @@ a.active {
     font-weight: 600;
   }
   .mysites span {
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: 700;
   }
   .mysites .a-3 {
