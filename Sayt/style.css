@@ -447,7 +447,7 @@ a.active {
     left: 300px;
   }
   .skills {
-    padding-left: 370px;
+    padding-left: 490px;
   }
   .skills-content {
     display: none;
@@ -455,32 +455,32 @@ a.active {
   .sub2-1 {
     width: 900px;
     position: relative;
-    right: 400px;
-    font-size: 4.7rem;
+    right: 380px;
+    font-size: 4.2rem;
   }
   .contact-text {
     gap: 8rem;
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 35px;
+    left: 95px;
   }
   .con-h2 {
     position: relative;
-    left: 220px;
-    font-size: 4.4rem;
+    left: 270px;
+    font-size: 4.2rem;
   }
   .con-p {
     display: none;
   }
   .port-h1 {
     position: relative;
-    left: 200px;
+    left: 280px;
     font-size: 4.7rem;
   }
   .port-p {
     position: relative;
-    left: 200px;
+    left: 280px;
     font-size: 25px;
   }
   .About {
@@ -495,7 +495,7 @@ a.active {
   }
   .product1 {
     position: relative;
-    left: -10px;
+    left: 60px;
   }
   img {
     width: 700px;
@@ -521,7 +521,7 @@ a.active {
     font-weight: 600;
   }
   .mysites span {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     font-weight: 700;
   }
   .mysites .a-3 {
@@ -551,5 +551,31 @@ a.active {
     width: 250px;
     height: 80px;
     font-size: 25px;
+  }
+  .about-text h1 {
+    width: 700px;
+    font-size: 5rem;
+    position: relative;
+    left: -90px;
+    margin: 35px 0;
+  }
+  .about-text span {
+    padding: 20px 35px;
+  }
+  .about-text p {
+    width: 100%;
+    font-size: 35px;
+    height: auto;
+    text-align: center;
+    position: relative;
+    left: -150px;
+    line-height: normal;
+  }
+  .btn1-1 {
+    position: relative;
+    left: 65px;
+    margin-top: 50px;
+    font-size: 2rem;
+    padding: 30px 85px;
   }
 }/*# sourceMappingURL=style.css.map */
